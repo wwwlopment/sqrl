@@ -9,12 +9,14 @@
 }
 
 
+
 .back {
     width: 100%;
     height: 680px;
     background-color: #f6f2f2;
 }
-.clearfix:after {
+
+.clearfix {
     content: '';
     display: table;
     width: 100%;
@@ -48,7 +50,7 @@
     overflow: hidden;
     position: relative;
     float: left;
-    left:33%;
+    left:30%;
 }
 
 .menu li {
@@ -58,7 +60,7 @@
 
 .menu li a {
     position: relative;
-    padding: 12px;
+    padding: 12px 25px;
     text-decoration: none;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -77,14 +79,14 @@
 .top-content {
     overflow: hidden;
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 570px;
 }
 
 .top-content h1 {
     margin-top: 100px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 40pt;
+    font-size: 35pt;
     letter-spacing: 0.59px;
     text-transform: uppercase;
 
@@ -92,6 +94,7 @@
 .text {
     margin-top: 35px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 16px;
     color: #494848;
 }
@@ -99,7 +102,7 @@
 
 .left-content {
     float: left;
- /*   width: 30%;*/
+    width: 30%;
     height: 570px;
 }
 
@@ -133,9 +136,11 @@
 }
 
 .right-content {
-float: left;
-/*    width: auto;*/
-    height: 570px;
+    margin-top: 100px;
+    float: right;
+    box-shadow: -1px -1px 10px;
+    position: relative;
+    right: 7px;
 }
 
 .middle-content {
@@ -232,6 +237,9 @@ h1, .left-middle-content h1 {
     color: #ff3f40;
 }
 
+.boxes {
+    height: 500px;
+}
 
 .box-item {
     width: 22%;
@@ -239,4 +247,144 @@ h1, .left-middle-content h1 {
     margin: 10px;
     background-color: #f5f0dd;
     float: left;
+}
+
+.left-side-content {
+    width: 480px;
+    height: 200px;
+
+}
+
+.left-side-content h1 {
+    text-transform: uppercase;
+
+}
+.left-side-content .red-hr, .text, .left-side-content-box {
+    margin-left: 20px;
+}
+
+
+.left-side-content-box {
+    width: 300px;
+    height: 368px;
+    background-color: #f5f0dd;
+    float: left;
+}
+
+.side-content-wrapper {
+    margin-top: 100px;
+    height: 580px;
+}
+
+.right-side-content {
+    float: right;
+    width: 63%;
+    margin-left: 0px;
+}
+
+.right-side-content h1 {
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.right-side-content .text {
+    margin-left: 0px;
+}
+.right-side-content-boxes {
+    margin-top: 25px;
+    float: left;
+}
+.right-side-content-box-item {
+    width: 140px;
+    height: 160px;
+    background-color: #f5f0dd;
+    float: left;
+    margin-right: 20px;
+}
+
+.right-side-content-box-item .active {
+    text-transform: uppercase;
+    color: white;
+    background-color: #7a786e;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    top: 130px;
+}
+
+.right-side-content-social-links ul {
+    list-style-type: none;
+    margin: 5px auto;
+
+}
+
+
+
+.right-side-content-social-links li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    float: left;
+    color: #494848;
+    margin: 10px 40px;
+    margin-left: 0px;
+}
+
+.subscribe-wrapper {
+
+    text-align: center;
+
+}
+
+.subscribe-internal {
+    background-color: #818181;
+    width: 100%;
+    height: 500px;
+}
+
+.subscribe-internal h1, .subscribe-text {
+    color: #e9e9e9;
+    margin-top: 20px;
+    position: relative;
+    top: 120px;
+}
+
+.subscribe-input {
+    height: 55px;
+    width: 520px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: #494848;
+    padding-left: 30px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 20px;
+
+}
+
+
+.subscribe-internal .red-button {
+    text-transform: uppercase;
+
+}
+
+.subscribe-form {
+    margin-top: 120px;
+}
+
+.bottom-message-wrapper {
+    position: relative;
+    top: 500px;
+}
+
+.footer {
+    background-color: #818181;
+    width: 100%;
+    height: 200px;
 }
